@@ -62,7 +62,7 @@
 4. modified (модифицирован до коммита)
 Работают они так:
 ```mermaid
-graph LR;
+graph TD;
     untracked -- "git add" --> staged;
     staged -- "git commit" --> tracked;
     tracked -- "changes in file" --> modified;
