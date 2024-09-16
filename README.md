@@ -6,10 +6,10 @@
 **git version** <br>
 ## Настройка Git
 При помощи команды <br> 
-**git config user.name "Имя Фамилия"** <br> 
+**git config --global user.name "Имя Фамилия"** <br> 
 нужно ввести свое имя или никнейм <br>
 Далее командой <br> 
-**git config user.email username@gmail.com** <br> 
+**git config --global user.email username@gmail.com** <br> 
 выставляем действующую электронную почту <br>
 ## Создание репозитория на компьютере
 Необходимо создать папку, зайти в неё через консоль и инициализировать репозиторий командой <br> 
